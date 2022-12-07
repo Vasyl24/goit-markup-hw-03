@@ -1,0 +1,216 @@
+:root {
+  --primiry-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-bg-color: #f5f5f5;
+  --white-color: #ffffff;
+  --secondary-title-color: #f4f4fd;
+  --secondary-text-color: #e7e9fc;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primiry-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.logo .logo-purple {
+  color: var(--accent-color);
+}
+.site-nav-link {
+  font-style: normal;
+  font-weight: 600;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link:active {
+  color: var(--accent-color);
+}
+.auth-nav-link {
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--primiry-text-color);
+}
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
+.auth-nav-link:active {
+  color: var(--accent-color);
+}
+
+/* hero section */
+.hero-section {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.hero-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Why us section */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.skills-title {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.skills-text {
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--primiry-text-color);
+}
+
+/* About section */
+.about-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Team section */
+.team {
+  background-color: var(--secondary-title-color);
+}
+.team-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-person {
+  background-color: var(--white-color);
+}
+.team-person-title {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.team-person-text {
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--primiry-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--title-text-color);
+}
+.logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+.logo-footer .logo-purple {
+  color: var(--accent-color);
+}
+.footer-text {
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+/* portfolio */
+
+.portfolio-btn.main {
+  font-family: inherit;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--secondary-title-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio .portfolio-title {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.portfolio .portfolio-text {
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--primiry-text-color);
+}
