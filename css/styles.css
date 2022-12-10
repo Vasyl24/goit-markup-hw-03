@@ -327,6 +327,13 @@ body {
 
 /* portfolio */
 
+.container.filter {
+  margin-bottom: 72px;
+}
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .grid-item {
   width: calc((100% - 72px) / 3);
   margin-right: 24px;
@@ -346,13 +353,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container.filter {
-  padding-top: 96px;
-  padding-bottom: 72px;
-}
-.container.grid {
-  padding-bottom: 120px;
-}
+
 .portfolio-btn.main {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -376,7 +377,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  border: 1px solid var(--secondary-text-color);
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
 }
